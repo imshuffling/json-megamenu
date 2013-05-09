@@ -37,7 +37,7 @@ body {
 	z-index: 10003;
 	border-radius: 3px 3px 0 0;
 }
-#nav1 .container {display: block! important;}
+/*#nav1 .container {display: block! important;}*/
 	
 .container {
 	display: none;
@@ -63,7 +63,7 @@ body {
 #nav5 .container { width: 420px; right: 0; border-radius: 3px 0 3px 3px;}*/
 
 
-#nav1 .container { width: 581px;}
+#nav1 .container { width: 775px;}
 #nav2 .container { width: 178px;}
 #nav3 .container { width: 387px;}
 #nav4 .container { width: 178px;}
@@ -88,6 +88,8 @@ a.heading {
 	min-width: 178px;
 	padding: 5px 0 4px 15px;
 }
+
+#nav1 li.heading {min-height: 314px;}
 
 li.heading {
 	border-left: 1px solid #C5D2D7;
