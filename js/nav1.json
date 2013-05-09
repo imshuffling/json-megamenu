@@ -1,0 +1,152 @@
+{
+	"navigation": [
+	{
+		"title": "Find your ski holiday",
+		"link": "#URLhere",
+		"headingArray": [
+	{
+		"heading": [
+		{
+			"title": "Destinations",
+			"link": "ski-resorts",
+			"subheading": [
+			{
+				"title": "Andorra",
+				"link": "ski-resorts/andorra-ski-holidays"
+			}, {
+				"title": "Austria",
+				"link": "ski-resorts/austria-ski-holidays"
+			}, {
+				"title": "Bulgaria",
+				"link": "ski-resorts/bulgaria-ski-holidays"
+			}, {
+				"title": "Canada",
+				"link": "ski-resorts/canada-ski-holidays"
+			}, {
+				"title": "Finland (Lapland)",
+				"link": "ski-resorts/finland-lapland-ski-holidays"
+			}, {
+				"title": "France",
+				"link": "ski-resorts/france-ski-holidays"
+			}, {
+				"title": "Italy",
+				"link": "ski-resorts/italy-ski-holidays"
+			}, {
+				"title": "Japan",
+				"link": "ski-resorts/japan-ski-holidays"
+			}, {
+				"title": "Norway",
+				"link": "ski-resorts/norway-ski-holidays"
+			}, {
+				"title": "Russia",
+				"link": "ski-resorts/russia-ski-holidays"
+			}, {
+				"title": "Slovenia",
+				"link": "ski-resorts/slovenia-ski-holidays"
+			}, {
+				"title": "Switzerland",
+				"link": "ski-resorts/switzerland-ski-holidays"
+			}, {
+				"title": "USA",
+				"link": "ski-resorts/usa-ski-holidays"
+			}]
+		}]
+	}, {
+		"heading": [
+		{
+			"title": "Latest ski deals",
+			"link": "ski-deals",
+			"subheading": [
+			{
+				"title": "By departure date",
+				"link": "ski-deals/#departuredate"
+			}, {
+				"title": "By departure airport",
+				"link": "ski-deals/#departureairport"
+			}, {
+				"title": "By country",
+				"link": "ski-deals/#country"
+			}, {
+				"title": "By board basis",
+				"link": "ski-deals/#boardbasis"
+			}, {
+				"title": "Crystal rating",
+				"link": "ski-deals/#rating"
+			}, {
+				"title": "By special offers",
+				"link": "ski-deals/#specialoffers"
+			}]
+		}]
+	}, {
+		"heading": [
+		{
+			"title": "Where to stay",
+			"link": "where-to-stay",
+			"subheading": [
+			{
+				"title": "Ski chalets",
+				"link": "ski-chalets"
+			}, {
+				"title": "Ski hotels",
+				"link": "ski-hotels"
+			}, {
+				"title": "Ski apartments",
+				"link": "ski-apartments"
+			}, {
+				"title": "Luxury accommodation",
+				"link": "luxury-ski-holidays"
+			}, {
+				"title": "Only from Crystal",
+				"link": "exclusive-holidays"
+			}]
+		}]
+	}, {
+		"heading": [
+		{
+			"title": "Holiday Types",
+			"link": "ski-holidays/#types",
+			"subheading": [
+			{
+				"title": "Ski plus packages",
+				"link": "ski-packages"
+			}, {
+				"title": "Luxury ski holidays",
+				"link": "luxury-ski-holidays"
+			}, {
+				"title": "All-inclusive holidays",
+				"link": "all-inclusive"
+			}, {
+				"title": "Family ski holidays",
+				"link": "family-ski-holidays"
+			}, {
+				"title": "Group ski holidays (10+)",
+				"link": "group-ski-holidays"
+			}, {
+				"title": "Ski weddings",
+				"link": "ski-weddings"
+			}, {
+				"title": "Snowboarding holidays",
+				"link": "snowboarding-holidays"
+			}, {
+				"title": "Self-drive holidays",
+				"link": "self-drive-holidays"
+			}, {
+				"title": "Rail holidays",
+				"link": "travel-by-train"
+			}, {
+				"title": "Advanced holidays",
+				"link": "advanced-ski-holidays"
+			}, {
+				"title": "Beginner holidays",
+				"link": "beginner-ski-holidays"
+			}, {
+				"title": "Disabled skiing holidays",
+				"link": "disabled-skiing"
+			}, {
+				"title": "Cross-country skiing",
+				"link": "cross-country-ski"
+			}]
+		}]
+	}]
+}]
+}

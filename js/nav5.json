@@ -1,0 +1,73 @@
+{	
+	"navigation": [
+		{
+			"title": "Snow reports",
+			"link": "snow-reports",
+			"headingArray": [
+		{
+			"heading": [
+			{
+				"title": "Top spots",
+				"link": "ski-reports",
+				"subheading": [
+				{
+					"title": "Freshest snow",
+					"link": "ski-reports/freshest-snow"
+				}, {
+					"title": "Most snow forecast",
+					"link": "ski-reports/forecast-most-snow"
+				}, {
+					"title": "Most snow on upper slopes",
+					"link": "ski-reports/most-on-upper-slopes"
+				}, {
+					"title": "Most snow on lower slopes",
+					"link": "ski-reports/most-on-lower-slopes"
+				}]
+			}]
+		}, {
+			"heading": [
+			{
+				"title": "Snow conditions in..",
+				"link": "ski-reports",
+				"subheading": [
+				{
+					"title": "Andorra",
+					"link": "ski-reports/andorra"
+				}, {
+					"title": "Austria",
+					"link": "ski-reports/austria"
+				}, {
+					"title": "Bulgaria",
+					"link": "ski-reports/bulgaria"
+				}, {
+					"title": "Canada",
+					"link": "ski-reports/canada"
+				}, {
+					"title": "Finland (Lapland)",
+					"link": "ski-reports/finland-lapland"
+				}, {
+					"title": "France",
+					"link": "ski-reports/france"
+				}, {
+					"title": "Italy",
+					"link": "ski-reports/italy"
+				}, {
+					"title": "Japan",
+					"link": "ski-reports/japan"
+				}, {
+					"title": "Russia",
+					"link": "ski-reports/russia"
+				}, {
+					"title": "Slovenia",
+					"link": "ski-reports/slovenia"
+				}, {
+					"title": "Switzerland",
+					"link": "ski-reports/switzerland"
+				}, {
+					"title": "USA",
+					"link": "ski-reports/usa"
+				}]
+			}]
+		}]
+	}]	
+}

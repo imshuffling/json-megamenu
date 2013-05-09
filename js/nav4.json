@@ -1,0 +1,33 @@
+{	
+	"navigation": [
+		{
+			"title": "Crystal benefits",
+			"link": "about-crystal",
+			"subheading": [
+		{
+			"title": "Disability snowsports",
+			"link": "about-crystal/dsuk"
+		}, {
+			"title": "Discounts from our partners",
+			"link": "about-crystal/our-partners"
+		}, {
+			"title": "Fresh tracks",
+			"link": "about-crystal/ski-fresh-tracks"
+		}, {
+			"title": "Green holidays",
+			"link": "about-crystal/green"
+		}, {
+			"title": "Holiday protection",
+			"link": "about-crystal/confidence"
+		}, {
+			"title": "Overseas service",
+			"link": "about-crystal/overseas-service"
+		}, {
+			"title": "Social skiing",
+			"link": "about-crystal/social-skiing"
+		}, {
+			"title": "Why book with us",
+			"link": "about-crystal/why-book-with-us"
+		}]
+	}]	
+}
