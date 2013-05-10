@@ -57,7 +57,46 @@ $(document).ready(function(){
 									u.next().remove();
 									*/
 									
+									//if ( $('#nav1 ul.heading li').length > 3 ) {
+										//console.log($('#nav1 li.heading').size());
+									//}
+									
+									
 									$(con).html(html);
+									
+									//console.log($('#nav1 li.heading').length);
+									
+									
+									// IF GREATER THAN 3 LI.HEADING
+									
+									// USE DIFFERENT LAYOUT
+									// 3 COLS
+									
+									
+									
+									
+									if ( $('#nav1 li.heading').length > 3 ) {
+										//console.log($('#nav1 li.heading').size());
+										console.log($('#nav1 li.heading').length);
+										//$("li").parent().remove().end().wrapAll("<ul>").appendTo("body");
+										
+										//$("li.heading").eq(3).addClass("blue");
+										$("ul.heading").find("li.heading").eq(2).addClass("third");
+										
+										/*$(".third").remove()
+													.prev()
+													.appendTo("li.heading");
+										*/
+
+										
+										
+										
+										
+										
+									}
+									
+									
+									
 									
 									
 									
