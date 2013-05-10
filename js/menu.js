@@ -83,11 +83,19 @@ $(document).ready(function(){
 										//$("li.heading").eq(3).addClass("blue");
 										$("ul.heading").find("li.heading").eq(2).addClass("third");
 										
+										
+										//$(".third").remove().end().wrapAll("<ul>").appendTo("body");
+										
 										/*$(".third").remove()
 													.prev()
 													.appendTo("li.heading");
 										*/
 
+										//$(".third").append().prev("li.heading");
+													//.appendTo().prev("li.heading");
+													
+										//$(".third").appendTo()
+													
 										
 										
 										
