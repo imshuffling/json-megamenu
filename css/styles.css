@@ -39,7 +39,7 @@ body {
 }
 /*#nav1 .container {display: block! important;}*/
 	
-.container {
+.menu-container {
 	display: none;
 	background: #f7fbfd;
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y3ZmJmZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZmY3ZmEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -56,20 +56,20 @@ body {
 	top: 37px;
 }
 
-/*#nav1 .container { width: 630px;}
-#nav2 .container { width: 178px;}
-#nav3 .container { width: 420px;}
-#nav4 .container { width: 178px;}
-#nav5 .container { width: 420px; right: 0; border-radius: 3px 0 3px 3px;}*/
-
-
-#nav1 .container { width: 775px;}
-#nav2 .container { width: 178px;}
-#nav3 .container { width: 389px;}
-#nav4 .container { width: 178px;}
-#nav5 .container { width: 387px; right: 0; border-radius: 3px 0 3px 3px;}
+#nav1 .menu-container { width: 775px;}
+#nav2 .menu-container { width: 178px;}
+#nav3 .menu-container { width: 389px;}
+#nav4 .menu-container { width: 178px;}
+#nav5 .menu-container { width: 387px; right: 0; border-radius: 3px 0 3px 3px;}
 		
-.js .dropdown .button span {
+/*.js .dropdown .button span {
+	background-image: url("../imgs/twistyclose.png");
+	background-repeat: no-repeat;
+	background-position: 99% 10px;
+	padding-right: 20px;
+}*/
+
+.dropdown .button span {
 	background-image: url("../imgs/twistyclose.png");
 	background-repeat: no-repeat;
 	background-position: 99% 10px;
@@ -109,7 +109,7 @@ li ul {
     padding: 0;
 }
 
-.container ul.heading {margin-top: 0;}
+.menu-container ul.heading {margin-top: 0;}
 
 ul.subheading li.nested {
 	padding: 0px 15px;

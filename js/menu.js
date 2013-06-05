@@ -1,9 +1,7 @@
 $(document).ready(function(){
-			//$(".container").hide();
-			$('body').addClass('js');
 			$(['nav1', 'nav2', 'nav3', 'nav4', 'nav5']).each(function(){
 				var nav = this;
-				var con = $("#"+nav).children('.container');
+				var con = $("#"+nav).children('.menu-container');
 				$("#"+nav).hover(
 					function(){
 						$(".hover").mouseout();
@@ -19,8 +17,7 @@ $(document).ready(function(){
 							$.ajax({
 								url: 'js/'+nav+'.json',
 								type: 'get',
-								success: function(json){
-																
+								success: function(json){					
 									// output in dropdown area
 									html = '';
 									$.each(json.navigation, function (idx, obj) {	
@@ -49,18 +46,8 @@ $(document).ready(function(){
 										} else {
 											html += 'There has been a error';
 										}
-									});
-									
-									/*
-									var u = $('#nav1 li.heading').first(); //select your first ul element, you can do it by id or class selector
-									u.append(u.next().html());
-									u.next().remove();
-									*/
-									
+									});								
 									$(con).html(html);
-									
-									
-									
 								}
 							});
 						}
@@ -75,9 +62,6 @@ $(document).ready(function(){
 						}
 						$(this).removeClass('hover');
 					}
-				);
-				
-				
-				
+				);	
 			});
 		});
