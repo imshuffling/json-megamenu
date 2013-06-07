@@ -1,49 +1,33 @@
 {	
 	"navigation": [
 		{
-			"title": "Events",
-			"link": "#URLhere",
-			"headingArray": [
-		{
-			"heading": [
+			"title": "Ski essentials",
+			"link": "snow-extras",
+			"subheading": [
 			{
-				"title": "School holidays",
-				"link": "ski-events",
-				"subheading": [
-				{
-					"title": "Christmas holidays",
-					"link": "ski-events/christmas-skiing"
-				}, {
-					"title": "New Year's holidays",
-					"link": "ski-events/new-years"
-				}, {
-					"title": "Spring half term",
-					"link": "ski-events/half-term"
-				}, {
-					"title": "Easter holidays",
-					"link": "ski-events/easter"
-				}]
-			}]
-		}, {
-			"heading": [
-			{
-				"title": "Festivals and events",
-				"link": "ski-events",
-				"subheading": [
-				{
-					"title": "Altitude comedy festival",
-					"link": "ski-events/altitude-festival"
-				}, {
-					"title": "Ski Fest / Slalom holidays",
-					"link": "ski-events/ski-challenge"
-				}, {
-					"title": "Snowbombing music festival",
-					"link": "ski-events/snowbombing"
-				}, {
-					"title": "St Patrick's day",
-					"link": "ski-events/pas-rocks"
-				}]
-			}]
+				"title": "Airport transfers",
+				"link": "snow-extras/transfer"
+			}, {
+				"title": "Car hire",
+				"link": "snow-extras/car-hire"
+			}, {
+				"title": "Childcare",
+				"link": "family-ski-holidays/crystal-childcare"
+			}, {
+				"title": "Holiday extras",
+				"link": "snow-extras/holiday-extras"
+			}, {
+				"title": "Lift passes",
+				"link": "snow-extras/lift-passes"
+			}, {
+				"title": "Ski bundles",
+				"link": "snow-extras/ski-bundles"
+			}, {
+				"title": "Ski equipment",
+				"link": "snow-extras/equipment-hire"
+			}, {
+				"title": "Winter sports travel insurance",
+				"link": "snow-extras/ski-holiday-insurance"
 		}]
-	}]	
+	}]
 }

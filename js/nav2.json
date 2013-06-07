@@ -1,33 +1,27 @@
 {	
 	"navigation": [
 		{
-			"title": "Ski essentials",
-			"link": "snow-extras",
+			"title": "Latest ski deals",
+			"link": "ski-deals",
 			"subheading": [
-			{
-				"title": "Airport transfers",
-				"link": "snow-extras/transfer"
-			}, {
-				"title": "Car hire",
-				"link": "snow-extras/car-hire"
-			}, {
-				"title": "Childcare",
-				"link": "family-ski-holidays/crystal-childcare"
-			}, {
-				"title": "Holiday extras",
-				"link": "snow-extras/holiday-extras"
-			}, {
-				"title": "Lift passes",
-				"link": "snow-extras/lift-passes"
-			}, {
-				"title": "Ski bundles",
-				"link": "snow-extras/ski-bundles"
-			}, {
-				"title": "Ski equipment",
-				"link": "snow-extras/equipment-hire"
-			}, {
-				"title": "Winter sports travel insurance",
-				"link": "snow-extras/ski-holiday-insurance"
+		{
+			"title": "By departure date",
+			"link": "ski-deals/#departuredate"
+		}, {
+			"title": "By departure airport",
+			"link": "ski-deals/#departureairport"
+		}, {
+			"title": "By country",
+			"link": "ski-deals/#country"
+		}, {
+			"title": "By board basis",
+			"link": "ski-deals/#boardbasis"
+		}, {
+			"title": "Crystal rating",
+			"link": "ski-deals/#rating"
+		}, {
+			"title": "By special offers",
+			"link": "ski-deals/#specialoffers"
 		}]
-	}]
+	}]	
 }

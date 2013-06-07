@@ -54,32 +54,6 @@
 	}, {
 		"heading": [
 		{
-			"title": "Latest ski deals",
-			"link": "ski-deals",
-			"subheading": [
-			{
-				"title": "By departure date",
-				"link": "ski-deals/#departuredate"
-			}, {
-				"title": "By departure airport",
-				"link": "ski-deals/#departureairport"
-			}, {
-				"title": "By country",
-				"link": "ski-deals/#country"
-			}, {
-				"title": "By board basis",
-				"link": "ski-deals/#boardbasis"
-			}, {
-				"title": "Crystal rating",
-				"link": "ski-deals/#rating"
-			}, {
-				"title": "By special offers",
-				"link": "ski-deals/#specialoffers"
-			}]
-		}]
-	}, {
-		"heading": [
-		{
 			"title": "Where to stay",
 			"link": "where-to-stay",
 			"subheading": [
@@ -147,6 +121,46 @@
 				"link": "cross-country-ski"
 			}]
 		}]
-	}]
+	}, {
+			"heading": [
+			{
+				"title": "School holidays",
+				"link": "ski-events",
+				"subheading": [
+				{
+					"title": "Christmas holidays",
+					"link": "ski-events/christmas-skiing"
+				}, {
+					"title": "New Year's holidays",
+					"link": "ski-events/new-years"
+				}, {
+					"title": "Spring half term",
+					"link": "ski-events/half-term"
+				}, {
+					"title": "Easter holidays",
+					"link": "ski-events/easter"
+				}]
+			}]
+		}, {
+			"heading": [
+			{
+				"title": "Festivals and events",
+				"link": "ski-events",
+				"subheading": [
+				{
+					"title": "Altitude comedy festival",
+					"link": "ski-events/altitude-festival"
+				}, {
+					"title": "Ski Fest / Slalom holidays",
+					"link": "ski-events/ski-challenge"
+				}, {
+					"title": "Snowbombing music festival",
+					"link": "ski-events/snowbombing"
+				}, {
+					"title": "St Patrick's day",
+					"link": "ski-events/pas-rocks"
+				}]
+			}]
+		}]
 }]
 }
