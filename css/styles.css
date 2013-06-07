@@ -1,43 +1,80 @@
 body {
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:0.8em;
+	font-family:"lucida sans","lucida grande","lucida sans unicode",verdana,arial,san-serif;
+	font-size: 99.9%;
+	line-height: 1.3;
 	color:#555;
 	width:958px;
 	margin:50px auto;
+	background-image: url('http://www.thomsonlakes.co.uk/static/images/thomsonbrand/site52/lakes.bg.jpg');
+	    background-color: #FFFFFF;
+    background-position: center top;
+    background-repeat: no-repeat;
 }
+
+
+.nav-wrapper {
+    border-radius: 5px 5px 5px 5px;
+	border: 3px solid #fff;
+	background: #8babfe;
+	background: -moz-linear-gradient(top, #8babfe 0%, #6d95ed 50%, #4173d6 51%, #4173d6 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8babfe), color-stop(50%,#6d95ed), color-stop(51%,#4173d6), color-stop(100%,#4173d6));
+	background: -webkit-linear-gradient(top, #8babfe 0%,#6d95ed 50%,#4173d6 51%,#4173d6 100%);
+	background: -o-linear-gradient(top, #8babfe 0%,#6d95ed 50%,#4173d6 51%,#4173d6 100%);
+	background: -ms-linear-gradient(top, #8babfe 0%,#6d95ed 50%,#4173d6 51%,#4173d6 100%);
+	background: linear-gradient(to bottom, #8babfe 0%,#6d95ed 50%,#4173d6 51%,#4173d6 100%);
+    border-radius: 5px 5px 5px 5px;
+    clear: both;
+    float: left;
+    width: 969px;
+}
+
 .wrapper {
+	/*font-size: 93%;*/
+	border-left: 1px solid #3250BE;
 	float:left;
-	margin:0 5px 0 0;
+	/*margin:0 5px 0 0;*/
 	position:relative;
-	padding: 13px 0;
+	/*padding: 10px 0;*/
 }
+.wrapper:first-child {
+	border-left: 0 none;
+}
+
 .button {
-	/*padding:13px 0;*/
+	padding: 9px 15px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 90%;
 }
 
-.button span {
-	margin:0;
-	text-align:center;
-	padding:10px;
-	cursor:pointer;	
-	/*border-color: #FFFFFF #FFFFFF -moz-use-text-color;
-    border-image: none;
-    border-style: solid solid none;*/
-	border-left: 1px solid #fff;
-	border-right: 1px solid #fff;
-	border-top: 1px solid #fff;
-    /*border-width: 1px 1px 0;	*/
+.dropdown .button {
+	padding: 9px 15px 9px 10px;
 }
 
-.hover .button span {   
-	background-color: #F7FBFD;
-	border-left: 1px solid #AAC6D0;
-	border-right: 1px solid #AAC6D0;
-	border-top: 1px solid #AAC6D0;
-	z-index: 10003;
-	border-radius: 3px 3px 0 0;
+.button:hover {
+	background: #3250be;
+	background: -moz-linear-gradient(top, #3250be 0%, #678ce4 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3250be), color-stop(100%,#678ce4));
+	background: -webkit-linear-gradient(top, #3250be 0%,#678ce4 100%);
+	background: -o-linear-gradient(top, #3250be 0%,#678ce4 100%);
+	background: -ms-linear-gradient(top, #3250be 0%,#678ce4 100%);
+	background: linear-gradient(to bottom, #3250be 0%,#678ce4 100%);
 }
-/*#nav1 .container {display: block! important;}*/
+
+.button a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.dropdown .button a {
+	background: url("../imgs/whitearrowopen.png") no-repeat scroll left center transparent;
+	padding-left: 15px;
+}
+
+.hover .button a {
+	background: url("../imgs/whitearrowclosed.png") no-repeat scroll left center transparent;
+}
+
 	
 .menu-container {
 	display: none;
@@ -56,30 +93,17 @@ body {
 	top: 36px;
 }
 
-#nav1 .menu-container { width: 775px;}
+#nav1 .menu-container { width: 819px;}
 #nav2 .menu-container { width: 178px;}
 #nav3 .menu-container { width: 178px;}
 #nav4 .menu-container { width: 178px;}
 #nav5 .menu-container { width: 387px; right: 0; border-radius: 3px 0 3px 3px;}
 		
-/*.js .dropdown .button span {
-	background-image: url("../imgs/twistyclose.png");
-	background-repeat: no-repeat;
-	background-position: 99% 10px;
-	padding-right: 20px;
-}*/
-
-.dropdown .button span {
-	background-image: url("../imgs/twistyclose.png");
-	background-repeat: no-repeat;
-	background-position: 99% 10px;
-	padding-right: 20px;
-}
 
 .loading {padding: 15px 0 15px 15px;} 
 
-a {text-decoration: none; color: #333333; }
-a:hover {color: #ED1C24;}
+/*a {text-decoration: none; color: #333333; }*/
+/*a:hover {color: #ED1C24;}*/
 
 a.heading {
 	font-weight: bold;
@@ -120,4 +144,5 @@ ul.subheading li.nested {
 .nested {
 	margin: 0 0 7px;
 }
+
 
