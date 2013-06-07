@@ -91,6 +91,7 @@ a.heading {
 }
 
 #nav1 li.heading {min-height: 314px;}
+#nav1 li.heading.last {min-height: 50%; position: absolute; right: 0; top: 50%;}
 
 li.heading {
 	border-left: 1px solid #C5D2D7;

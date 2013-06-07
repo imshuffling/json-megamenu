@@ -48,8 +48,11 @@ $(document).ready(function(){
 										}
 									});								
 									$(con).html(html);
+									$(".menu-container ul.heading li.heading:last-child").addClass("last");	
 								}
 							});
+							
+					
 						}
 					},
 					//mouseout
