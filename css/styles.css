@@ -91,6 +91,7 @@ body {
 	border-radius: 0 3px 3px 3px;
 	position:absolute;
 	top: 36px;
+	font-size: 85%;
 }
 
 #nav1 .menu-container { width: 819px;}
@@ -114,7 +115,7 @@ a.heading {
 	color: #ffffff;
 }
 
-#nav1 li.heading {min-height: 314px;}
+#nav1 li.heading {min-height: 390px;}
 #nav1 li.heading.last {min-height: 50%; position: absolute; right: 0; top: 50%;}
 
 li.heading {
