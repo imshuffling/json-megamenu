@@ -92,9 +92,10 @@ body {
 	position:absolute;
 	top: 36px;
 	font-size: 85%;
+	overflow: hidden;
 }
 
-#nav1 .menu-container { width: 819px;}
+#nav1 .menu-container { width: 771px;}
 #nav2 .menu-container { width: 178px;}
 #nav3 .menu-container { width: 178px;}
 #nav4 .menu-container { width: 178px;}
@@ -120,7 +121,8 @@ a.heading {
 
 li.heading {
 	border-left: 1px solid #C5D2D7;
-	min-width: 178px;
+	/*min-width: 178px;*/
+	width: 192px;
 	float: left;
 }
 li.heading ul {
