@@ -78,15 +78,12 @@ body {
 	
 .menu-container {
 	display: none;
-	background: #f7fbfd;
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y3ZmJmZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZmY3ZmEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -moz-linear-gradient(top,  #f7fbfd 0%, #eff7fa 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7fbfd), color-stop(100%,#eff7fa));
-	background: -webkit-linear-gradient(top,  #f7fbfd 0%,#eff7fa 100%);
-	background: -o-linear-gradient(top,  #f7fbfd 0%,#eff7fa 100%);
-	background: -ms-linear-gradient(top,  #f7fbfd 0%,#eff7fa 100%);
-	background: linear-gradient(to bottom,  #f7fbfd 0%,#eff7fa 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfd', endColorstr='#eff7fa',GradientType=0 );
+ background: none repeat scroll 0 0 #D7ECFB;
+    border-bottom: 1px solid #B6CFE6;
+    border-left: 1px solid #B6CFE6;
+    border-radius: 0 0 5px 5px;
+    border-right: 1px solid #B6CFE6;
+    box-shadow: 0 4px 3px 0 rgba(176, 189, 200, 0.89) inset;
     border: 1px solid #AAC6D0;
 	border-radius: 0 3px 3px 3px;
 	position:absolute;
@@ -95,7 +92,13 @@ body {
 	overflow: hidden;
 }
 
-#nav1 .menu-container { width: 771px;}
+a {
+	color: #3250BE;
+	cursor: pointer;
+
+}
+
+#nav1 .menu-container { width: 967px; left: -225px;}
 #nav2 .menu-container { width: 178px;}
 #nav3 .menu-container { width: 178px;}
 #nav4 .menu-container { width: 178px;}
@@ -117,10 +120,11 @@ a.heading {
 }
 
 #nav1 li.heading {min-height: 390px;}
-#nav1 li.heading.last {min-height: 50%; position: absolute; right: 0; top: 50%;}
+/*#nav1 li.heading.last {min-height: 50%; position: absolute; right: 0; top: 50%;}*/
 
 li.heading {
-	border-left: 1px solid #C5D2D7;
+	/*border-left: 1px solid #C5D2D7;*/
+	border-left: 1px solid #FFFFFF;
 	/*min-width: 178px;*/
 	width: 192px;
 	float: left;
