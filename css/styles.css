@@ -88,7 +88,7 @@ body {
 	border-radius: 0 3px 3px 3px;
 	position:absolute;
 	top: 37px;
-	font-size: 85%;
+	font-size: 82%;
 	overflow: hidden;
 }
 
@@ -96,6 +96,10 @@ a {
 	color: #3250BE;
 	cursor: pointer;
 
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 #nav1 .menu-container { width: 967px; left: -225px;}
@@ -111,20 +115,19 @@ a {
 /*a:hover {color: #ED1C24;}*/
 
 a.heading {
-	font-weight: bold;
-	background: #004797;
 	display: block;
 	min-width: 178px;
-	padding: 8px 0 8px 15px;
-	color: #ffffff;
+	padding: 14px 0 5px 15px;
+	color: #333333;
+	font-size: 105%;
+	text-decoration: none;
 }
 
 #nav1 li.heading {min-height: 390px;}
 /*#nav1 li.heading.last {min-height: 50%; position: absolute; right: 0; top: 50%;}*/
 
 li.heading {
-	/*border-left: 1px solid #C5D2D7;*/
-	border-left: 1px solid #FFFFFF;
+	border-left: 1px solid #C8DDEB;
 	/*min-width: 178px;*/
 	width: 192px;
 	float: left;
