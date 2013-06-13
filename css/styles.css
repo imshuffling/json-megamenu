@@ -26,15 +26,12 @@ body {
     clear: both;
     float: left;
     width: 969px;
+	position: relative;
 }
 
 .wrapper {
-	/*font-size: 93%;*/
 	border-left: 1px solid #3250BE;
 	float:left;
-	/*margin:0 5px 0 0;*/
-	position:relative;
-	/*padding: 10px 0;*/
 }
 .wrapper:first-child {
 	border-left: 0 none;
@@ -102,7 +99,7 @@ a:hover {
 	text-decoration: none;
 }
 
-#nav1 .menu-container { width: 967px; left: -225px;}
+#nav1 .menu-container { width: 967px; left: 0px;}
 #nav2 .menu-container { width: 178px;}
 #nav3 .menu-container { width: 178px;}
 #nav4 .menu-container { width: 178px;}
@@ -110,9 +107,6 @@ a:hover {
 		
 
 .loading {padding: 15px 0 15px 15px;} 
-
-/*a {text-decoration: none; color: #333333; }*/
-/*a:hover {color: #ED1C24;}*/
 
 a.heading {
 	display: block;
@@ -124,11 +118,10 @@ a.heading {
 }
 
 #nav1 li.heading {min-height: 390px;}
-/*#nav1 li.heading.last {min-height: 50%; position: absolute; right: 0; top: 50%;}*/
 
 li.heading {
-	border-left: 1px solid #C8DDEB;
-	/*min-width: 178px;*/
+	border-left: 1px solid rgb(255, 255, 255);
+	border-left: 1px solid rgba(255, 255, 255, 0.39);
 	width: 192px;
 	float: left;
 }
